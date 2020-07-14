@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: micro-mq
+kafka:
+  bootstrap:
+    servers: localhost:9092
+  topic:
+    user: topic-user
+  group:
+    id: group-id
